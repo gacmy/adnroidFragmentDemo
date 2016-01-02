@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <fragment android:name="com.gac.fragmentdemo.TextFragment"
+        android:id="@+id/id_textfragment"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+
+        />
+    <fragment android:name="com.gac.fragmentdemo.OneFragment"
+        android:id="@+id/id_one"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+
+        />
+
+    <FrameLayout
+        android:id="@+id/id_fragment_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        ></FrameLayout>
+
+
+    <Button
+        android:id="@+id/id_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change fragment"
+        />
+
+
+
+</LinearLayout>
+<!-- From: file:/E:/Progects/androidProgects/AndroidStart/app/src/main/res/layout/activity_main.xml -->
